@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dedcdc;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh; /* Establece la altura mínima del cuerpo para ocupar al menos la altura de la ventana visible */
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+
+
+
+
+/* Navbar */
+.dropdown-menu a:hover {
+  border: none;
+}
+
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown:hover > .dropdown-menu{
+  
+  opacity: 1;
+}
+.dropdown-menu{
+  border-top: 5px solid transparent;
+  background-color:#006699 ;
+  transition: 0.2s linear;
+  opacity: 0;
+  width: 250px;
+}
+.dropdown-item{
+  color: white;
+  transition: 0.2s linear;
+}
+.dropdown-item:hover{
+  background-color: #dedcdc;
+  color: #006699;
+}
+.dropdown-item:hover .dropdown-menu{
+  opacity: 1;
+  top: 100px !important;
+  visibility: visible;
+}
+.nav-item{
+  background-color: #006699;
+}
+.nav-item:hover{
+  background-color: #0099cc;
+}
+.nav-item{
+  font-weight: bold;
+  color: white;
+
+  border-bottom: 5px solid #006699;
+  border-top: 5px solid #006699;
+}
+.nav-item:hover{
+  color: white;
+  background-color: #0099cc;
+  border-bottom: 5px solid rgb(255, 240, 23);
+  border-top: 5px solid #0099cc;
+}
+.container{
+  padding-top: 72px;
+  margin-bottom: 50px;
+  background: #dedcdc;
+  font-size: 20px;
+  width: auto;
+  border-radius: 10px;
+}
+.nav-link{
+
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+}
+.logo{
+  padding-right: 30px;
+  height: 80px;
+}
+
+
+
+/* ---------------------------------- */
+
+
+
+.contMV {
+    background-color: #eaeaeac4;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    max-width: 900px; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega un poco de espacio alrededor del contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega sombra para resaltar el contenedor */
+    opacity: 0; /* Opacidad inicial en 0 */
+    transition: opacity 2s ease; /* Transición para suavizar la aparición */
+    margin-top: 10px;
+    margin-bottom: 114px;
+  }
+  /* Estilo de la imagen */
+  .imgMV img {
+    max-width:100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+    display: block; /* Elimina el espacio adicional en la parte inferior de la imagen */
+  }
+  .mostrar {
+    opacity: 1; /* Opacidad a 1 para hacer visible el contenedor */
+  }
+
+ /* ------------------------------------------------------------------------------------------- */
+
+  /* Estilo del título */
+  .Titulo-Mision {
+    margin-bottom: 10px; /* Agrega espacio entre el título y el texto */
+  }
+
+  /* Estilo del texto */
+  .textoMision {
+    padding-right: 20px; /* Añade un espacio entre el texto y la imagen */
+    text-align: justify; /* Alinea el texto a la izquierda */
+    width: 700px;
+  }
+
+
+  /* Estilo del título */
+  .Titulo-Vision {
+    margin-bottom: 10px; /* Agrega espacio entre el título y el texto */
+    text-align: left;
+  }
+
+  /* Estilo del texto */
+  .textoVision {
+    padding-left: 20px; /* Añade un espacio entre el texto y la imagen */
+    text-align: justify; /* Alinea el texto a la izquierda */
+    width: 700px;
+  }
+
+
+
+
+
+  .contenedor-valores {
+    background-color: #eaeaeac4;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    max-width: 1300px; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega un poco de espacio alrededor del contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega sombra para resaltar el contenedor */
+    opacity: 0; /* Opacidad inicial en 0 */
+    transition: opacity 2s ease; /* Transición para suavizar la aparición */
+  }
+  /* Estilo de la imagen */
+  .imagen-valores img {
+    max-width:100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+    display: block; /* Elimina el espacio adicional en la parte inferior de la imagen */
+  }
+  .mostrar {
+    opacity: 1; /* Opacidad a 1 para hacer visible el contenedor */
+  }
+
+ /* ------------------------------------------------------------------------------------------- */
+
+  /* Estilo del título */
+  .titulo-valores {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px; /* Agrega espacio entre el título y el texto */
+  }
+
+  /* Estilo del texto */
+  .texto-valores{
+    padding-right: 40px; /* Añade un espacio entre el texto y la imagen */
+    text-align: justify; /* Alinea el texto a la izquierda */
+    width: 1200px;
+  }
+
+
+  .contenedor-quienes-somos {
+    background-color: #eaeaeac4;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    max-width: 1100px; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega un poco de espacio alrededor del contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega sombra para resaltar el contenedor */
+    opacity: 0; /* Opacidad inicial en 0 */
+    transition: opacity 2s ease; /* Transición para suavizar la aparición */
+    margin-bottom: 240px;
+    margin-top: 168px;
+  }
+  /* Estilo de la imagen */
+  .imagen-quienes-somos img {
+    width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+     /* Elimina el espacio adicional en la parte inferior de la imagen */
+  }
+  .mostrar {
+    opacity: 1; /* Opacidad a 1 para hacer visible el contenedor */
+  }
+
+ /* ------------------------------------------------------------------------------------------- */
+
+  /* Estilo del título */
+  .titulo-quienes-somos {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px; /* Agrega espacio entre el título y el texto */
+  }
+
+  /* Estilo del texto */
+  .texto-quienes-somos{
+    padding-right: 20px; /* Añade un espacio entre el texto y la imagen */
+    text-align: justify; /* Alinea el texto a la izquierda */
+    width: 800px;
+  }
+
+/* WhatsApp*/
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px; /* Distancia desde la parte inferior de la pantalla */
+    right: 20px; /* Distancia desde el borde derecho de la pantalla */
+    width: 60px;
+    height: 60px;
+    background-color: rgb(23, 210, 23);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none; /* Ocultar inicialmente el ícono */
+    animation: aparecer 0.5s ease-in-out; /* Animación de aparición suave */
+  }
+  .whatsapp-icon2 {
+    position: fixed;
+    bottom: 35px; /* Distancia desde la parte inferior de la pantalla */
+    right: 35px; /* Distancia desde el borde derecho de la pantalla */
+    width: 30.5px;
+    height: 30.5px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none; /* Ocultar inicialmente el ícono */
+    animation: aparecer 0.5s ease-in-out; /* Animación de aparición suave */
+  }
+  .whatsapp-icon3 {
+    position: fixed;
+    bottom: 37.5px; /* Distancia desde la parte inferior de la pantalla */
+    right: 37.5px; /* Distancia desde el borde derecho de la pantalla */
+    width: 25.5px;
+    height: 25.5px;
+    background-color: rgb(23, 210, 23);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    cursor: pointer;
+    display: none; /* Ocultar inicialmente el ícono */
+    animation: aparecer 1s ease-in-out; /* Animación de aparición suave */
+  }
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  .FooterPage{
+    background-color: #111111;
+    color: white;
+    padding: 26.5px;
+}
+@media screen and (max-width:1300px){
+  .container{
+    padding-top: 5%;
+  }
+  .nav-link{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .container{
+    font-size: 16px;
+  } 
+  .contenedor-quienes-somos, .contMV, .contenedor-valores{
+    display: block;
+    max-width: 80%;
+    padding-right: 0px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  .texto-quienes-somos, .textoMision, .textoVision,.texto-valores{
+    width: 100%;
+  }
+  .textoVision{
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .Titulo-Vision{
+    margin-top: 10px;
+  }
+  .imagen-quienes-somos img, .imgMV img, .imagen-valores img{
+    padding-right: 20px;
+    width: 100%;
+  }
+  .nav-link{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+}
+
+@media screen and (max-width:370px){
+  .logo{
+    height: 57px;
+  }
+}

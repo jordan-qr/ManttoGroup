@@ -1,0 +1,539 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #dedcdc;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh; /* Establece la altura mínima del cuerpo para ocupar al menos la altura de la ventana visible */
+display: flex;
+flex-direction: column;
+}
+.content {
+flex: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+.divisiones{
+  width: 100%;
+  padding: 50px 0px 79px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.divisiones-container{
+  max-width: 1260px;
+}
+.ww-center{
+  width: 94%;
+  margin: auto;
+}
+.divisiones-tabs-content{
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.title{
+  width: 100%;
+  padding-bottom: 45px;
+  color: #006699
+}
+.text{
+  max-width: 900px;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 16px;
+  color: #212020;
+  line-height: 1.31;
+  text-align: justify;
+}
+
+
+.divisiones-2{
+  width: 100%;
+  padding: 97px 0px 61px;
+}
+.divisiones-2 .ww-center{
+  max-width: 1200px;
+    width: 94%;
+    margin: auto;
+}
+
+.divisiones-2-title{
+  padding-bottom: 68px;
+}
+.divisiones-2-content{
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.divisiones-2-item{
+  width: 39%;
+  position: relative;
+  padding-bottom: 49px;
+  margin: 0;
+  margin-right: 22%;
+  margin-bottom: 78px;
+  display: block;
+}
+.divisiones-2-item-img{
+  max-width: 344px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.divisiones-2-item-img-box{
+  width: 100%;
+  height: 0;
+  box-shadow: 4px 4px 20px 2px rgba(0,0,0,0.15);
+  position: relative;
+  padding-top: 58.434%;
+  margin: 0;
+}
+.divisiones-2-background{
+  width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.divisiones-2-item-text{
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 16px;
+  color: #212020;
+  line-height: 1.56;
+  letter-spacing: 0.1px;
+  text-align: justify;
+}
+.divisiones-2-item-text p{
+  margin: 0;
+}
+/* Navbar */
+.dropdown-menu a:hover {
+  border: none;
+}
+
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown:hover > .dropdown-menu{
+  
+  opacity: 1;
+}
+.dropdown-menu{
+  border-top: 5px solid transparent;
+  background-color:#006699 ;
+  transition: 0.2s linear;
+  opacity: 0;
+  width: 250px;
+}
+.dropdown-item{
+  color: white;
+  transition: 0.2s linear;
+}
+.dropdown-item:hover{
+  background-color: #dedcdc;
+  color: #006699;
+}
+.dropdown-item:hover .dropdown-menu{
+  opacity: 1;
+  top: 100px !important;
+  visibility: visible;
+}
+.nav-item{
+  background-color: #006699;
+}
+.nav-item:hover{
+  background-color: #0099cc;
+}
+.nav-item{
+  font-weight: bold;
+  color: white;
+
+  border-bottom: 5px solid #006699;
+  border-top: 5px solid #006699;
+}
+.nav-item:hover{
+  color: white;
+  background-color: #0099cc;
+  border-bottom: 5px solid rgb(255, 240, 23);
+  border-top: 5px solid #0099cc;
+}
+.container{
+  padding-top: 72px;
+  margin-bottom: 50px;
+  background: #dedcdc;
+  font-size: 20px;
+  width: auto;
+  border-radius: 10px;
+}
+.nav-link{
+
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+}
+.logo{
+  padding-right: 30px;
+  height: 80px;
+}
+/* ---------------------------------- */
+/* Servicios*/
+.contenedor {
+    background-color: #eaeaeac4;
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 0; /* Opacidad inicial en 0 */
+    transition: opacity 2s ease; /* Transición para suavizar la aparición */
+  }
+  .mostrar {
+    opacity: 1; /* Opacidad a 1 para hacer visible el contenedor */
+  }
+  
+  .texto {
+    width: 40%;
+    padding: 50px;
+  }
+  
+  .titulo {
+    margin-bottom: 10px;
+    margin: 30px;
+  }
+  
+  .texto p{
+    text-align: justify;
+  }
+  
+  .imagen {
+    width: 60%;
+  }
+
+  /* Fabricacion y rehabilitacion de partes*/
+  .galeria-frp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columnas */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas */
+    gap: 0;
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .galeria-frp li {
+    flex: 0 0 calc(50%); /* 4 columnas, cada una ocupa el 25% del contenedor */
+    height: 300px;
+  }
+  
+  .galeria-frp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+/* Mantenimiento predictivo en plantas industriales*/
+  .galeria-mpepi {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+    gap: 0;
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .galeria-mpepi li {
+    flex: 0 0 100%; /* 4 columnas, cada una ocupa el 25% del contenedor */
+    height: 300px;
+  }
+  
+  .galeria-mpepi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .galeria-mpepi .centro{
+    width: 250px; /* Ajusta el ancho deseado para la imagen del centro */
+    height: 600px; /* Ajusta la altura deseada para la imagen del centro */
+  }
+  .galeria-mpepi .izquierda-superior,
+  .galeria-mpepi .izquierda-inferior,
+  .galeria-mpepi .derecha-superior,
+  .galeria-mpepi .derecha-inferior {
+    width: 250px; /* Ajusta el ancho deseado para las imágenes de la izquierda y derecha */
+  }
+  .izquierda-superior {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .izquierda-inferior {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+  
+  .centro {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+  }
+  
+  .derecha-superior {
+    grid-column: 5 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .derecha-inferior {
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 1;
+  }
+  /* Valvulas Industriales*/
+  .galeria-vi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columnas */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas */
+    gap: 0;
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .galeria-vi li {
+    flex: 0 0 calc(50%); /* 4 columnas, cada una ocupa el 25% del contenedor */
+    height: 300px;
+  }
+  
+  .galeria-vi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  /* Bombas Industriales*/
+  .galeria-bi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto); /* Ajusta según sea necesario */
+    gap: 0;
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .galeria-bi li {
+    flex: 0 0 100%; /* 4 columnas, cada una ocupa el 25% del contenedor */
+    height: 300px;
+  }
+  
+  .galeria-bi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .galeria-bi .centro{
+    width: 250px; /* Ajusta el ancho deseado para la imagen del centro */
+    height: 600px; /* Ajusta la altura deseada para la imagen del centro */
+  }
+  .galeria-bi .izquierda-superior,
+  .galeria-bi .izquierda-inferior,
+  .galeria-bi .derecha-superior,
+  .galeria-bi .derecha-inferior,
+  .galeria-bi .columna-extra-superior,
+  .galeria-bi .columna-extra-inferior {
+  width: 160px; /* Ajusta el ancho deseado para las imágenes de la izquierda, derecha y la nueva columna */
+  }
+  .izquierda-superior {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .izquierda-inferior {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+  
+  .centro {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+  }
+  
+  .derecha-superior {
+    grid-column: 5 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .derecha-inferior {
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 1;
+  }
+  
+  .columna-extra-superior {
+    grid-column: 6 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .columna-extra-inferior {
+    grid-column: 6 / span 1;
+    grid-row: 2 / span 1;
+  }
+  /* Instalaciones y máquinas eléctricas*/
+  .galeria-ime {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columnas */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas */
+    gap: 0;
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .galeria-ime li {
+    flex: 0 0 calc(50%); /* 4 columnas, cada una ocupa el 25% del contenedor */
+    height: 380px;
+  }
+  
+  .galeria-ime img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+/* ---------------------------------- */
+
+  
+
+/* WhatsApp*/
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px; /* Distancia desde la parte inferior de la pantalla */
+    right: 20px; /* Distancia desde el borde derecho de la pantalla */
+    width: 60px;
+    height: 60px;
+    background-color: rgb(23, 210, 23);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none; /* Ocultar inicialmente el ícono */
+    animation: aparecer 0.5s ease-in-out; /* Animación de aparición suave */
+  }
+  .whatsapp-icon2 {
+    position: fixed;
+    bottom: 35px; /* Distancia desde la parte inferior de la pantalla */
+    right: 35px; /* Distancia desde el borde derecho de la pantalla */
+    width: 30.5px;
+    height: 30.5px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none; /* Ocultar inicialmente el ícono */
+    animation: aparecer 0.5s ease-in-out; /* Animación de aparición suave */
+  }
+  .whatsapp-icon3 {
+    position: fixed;
+    bottom: 37.5px; /* Distancia desde la parte inferior de la pantalla */
+    right: 37.5px; /* Distancia desde el borde derecho de la pantalla */
+    width: 25.5px;
+    height: 25.5px;
+    background-color: rgb(23, 210, 23);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    cursor: pointer;
+    display: none; /* Ocultar inicialmente el ícono */
+    animation: aparecer 1s ease-in-out; /* Animación de aparición suave */
+  }
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  .FooterPage{
+    background-color: #111111;
+    color: white;
+    padding: 24px;
+}
+
+@media screen and (max-width:1300px){
+  .container{
+    padding-top: 5%;
+  }
+  .nav-link{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .container{
+    font-size: 16px;
+  }
+  .nav-link{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  .contenedor{
+    display: block;
+    max-width: 80%;
+    padding-right: 0px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  .texto{
+    width: 100%;
+  }
+  .imagen,
+
+  .imagen .galeria-mpepi .izquierda-superior,
+  .imagen .galeria-mpepi .izquierda-inferior, 
+  .imagen .galeria-mpepi .centro,
+  .imagen .galeria-mpepi .derecha-superior, 
+  .imagen .galeria-mpepi .derecha-inferior,
+  
+  .imagen .galeria-bi .izquierda-superior,
+  .imagen .galeria-bi .izquierda-inferior,
+  .imagen .galeria-bi .centro,
+  .imagen .galeria-bi .derecha-superior,
+  .imagen .galeria-bi .derecha-inferior,
+  .imagen .galeria-bi .columna-extra-superior,
+  .imagen .galeria-bi .columna-extra-inferior{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:370px){
+  .logo{
+    height: 57px;
+  }
+}

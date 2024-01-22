@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Myriad Pro SemiCond;
+    src: url(fuentes/MyriadPro-BoldSemiCn.otf);
+}
+
+h2{
+    font-family: MyriadPro-BoldSemiCn;
+    font-weight: bold;
+}
