@@ -111,28 +111,32 @@
           </div>
         </div>
         <div class="contacto-form-inputs">
-          <form name="form" method="POST" action="https://formsubmit.co/jordan.x35602@gmail.com" novalidate="novalidate" id="formContacto">
+          <form name="form" action="https://api.web3forms.com/submit" method="POST"  novalidate="novalidate" id="formContacto">
+            <input type="hidden" name="access_key" value="aa0bfa1e-0f13-4f97-9729-33cc28e40bf2">
+            <input type="hidden" name="subject" value="Solicitud Información">
+            <input type="hidden" name="redirect" value="http://127.0.0.1:5500/contactanos.html">
+            <input type="hidden" name="from_name" value="Mantto Group">
             <ul>
               <li>
                 <div class="contacto-input">
                   <label>Nombre y Apellido</label>
-                  <input type="text" id="form-nombre" name="form[nombre]" required="required" class="validate[required]">
+                  <input type="text" id="form-nombre" name="Nombre: " required="required" class="validate[required]">
                 </div>
               </li>
               <li class="colum-2">
                 <div class="contacto-input">
                   <label>Correo Electronico</label>
-                  <input type="text" id="form-email" name="form[email]" required="required" class="validate[required, custom[email]]">
+                  <input type="text" id="form-email" name="Email" required="required" class="validate[required, custom[email]]">
                 </div>
                 <div class="contacto-input">
                   <label>Teléfono*</label>
-                  <input type="text" id="form-telefono" name="form[telefono]" required="required" class="validate[required, custom[phone]]">
+                  <input type="text" id="form-telefono" name="Teléfono" required="required" class="validate[required, custom[phone]]">
                 </div>
               </li>
               <li>
                 <div class="contacto-input">
                   <label>Mensaje:</label>
-                  <textarea id="form_mensaje" name="form[mensaje]" required="required" class="validate[required]"></textarea>
+                  <textarea id="form_mensaje" name="Mensaje" required="required" class="validate[required]"></textarea>
                 </div>
               </li>
             </ul>
@@ -142,7 +146,6 @@
             <div class="contacto-btn">
               <button class="btn btn_red btn_46 sendFormContacto">Enviar</button>
             </div>
-            <input type="hidden" id="form-token" name="form[-token]" value="CpJC7CoMZZ84Wbsi0_Ke8fRfnJQBC1eefJDywiio578">
           </form>
         </div>
       </div>
@@ -159,7 +162,8 @@
       <footer class="FooterPage">
         <p>&copy;2023 Mantto Group Perú S.A.C. Todos los derechos reservados.</p>
       </footer>
-
+      
+      <script src="https://web3forms.com/client/script.js" async defer></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
