@@ -106,7 +106,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
   margin: 0;
 }
 .divisiones-2-item-title{
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 18px;
   text-align: center;
 }
@@ -138,6 +138,41 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+.divisiones-2-item-img-circle-down {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: -35% 0 0 -20%;
+}
+.divisiones-2-item-img-circle-up {
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: -80% 0 0 65%;
+}
+.divisiones-2-moon {
+  width: 60%;
+  position: absolute;
+  margin: 0;
+}
+.divisiones-2-moon img {
+  width: 80%;
+  height: auto;
+  display: block;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  visibility: visible;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 /* Navbar */
 .dropdown-menu a:hover {

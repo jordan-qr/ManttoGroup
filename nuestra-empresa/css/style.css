@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #dedcdc;
+    background-color: #365f91;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh; /* Establece la altura mínima del cuerpo para ocupar al menos la altura de la ventana visible */
   display: flex;
