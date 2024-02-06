@@ -320,3 +320,110 @@ li{
   -ms-transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
   transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
+
+
+.footer{
+  max-width: 100% !important;
+  width: 100% !important;
+  background-color: black;
+}
+.footer-content {
+  margin-left: auto;
+margin-right: auto;
+  max-width: 900px;
+  background-color: black;
+}
+.ww-center {
+
+  max-width: 900px;
+  width: 94%;
+  margin: auto;
+}
+.footer-up {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 37px 0 66px 0;
+}
+.footer-logo {
+  width: 60%;
+  margin: 0;
+}
+.footer-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.footer-info {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer-column {
+  box-sizing: border-box;
+  padding: 0 30px 0 14px;
+}
+.footer-subtitle {
+  display: block;
+  line-height: 1;
+  color: white;
+  font-family: 'Roboto-Bold', sans-serif;
+  margin: 0 0 12px 0;
+}
+.footer-texts {
+  line-height: 1.29;
+  letter-spacing: -0.3px;
+  color: white;
+  font-family: 'Roboto-Light', sans-serif;
+}
+.footer-texts p {
+  margin-bottom: 0.5px;
+}
+.footer-down {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+}
+.footer-copyright {
+  line-height: 1.57;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Roboto-Regular', sans-serif;
+  padding-top: 30px;
+}
+.footer-rightside {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer-texthead {
+  display: block;
+  line-height: 1.1;
+  color: white;
+  font-family: 'Roboto-Bold', sans-serif;
+  margin: 0;
+}
+.footer-social ul {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 10%;
+}
+.icon-facebook img{
+  width: 80%;
+}
+.icon-instagram img{
+  width: 80%;
+}
+a{
+  color: white;
+}
