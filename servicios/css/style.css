@@ -82,7 +82,6 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
   padding-bottom: 49px;
   margin: 0;
   margin-right: 22%;
-  margin-bottom: 78px;
   display: block;
 }
 .divisiones-2-item:nth-child(2n + 2){
