@@ -105,8 +105,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
   margin: 0;
 }
 .divisiones-2-item-title{
-  padding-top: 100px;
-  padding-bottom: 18px;
+  padding-top: 30px;
   text-align: center;
 }
 .divisiones-2-background{
