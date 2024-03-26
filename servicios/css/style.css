@@ -16,7 +16,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
 
 .divisiones{
   width: 100%;
-  padding: 50px 0px 79px;
+  padding: 50px 0px 0px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -52,7 +52,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
 
 .divisiones-2{
   width: 100%;
-  padding: 97px 0px 61px;
+  padding: 50px 0px 61px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -130,7 +130,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
   text-align: justify;
 }
 .divisiones-2-item-text p{
-  margin: 0;
+  margin: 25.5px;
 }
 p {
   display: block;

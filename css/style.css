@@ -424,7 +424,7 @@ li{
 /* ---------------------------------- */
 /* Slider 1*/
 #carouselExampleAutoplaying{
-    height: 675px;
+    height: 906px;
     padding-bottom: 20px;
 }
 .carousel-control-prev,
@@ -484,7 +484,7 @@ hr{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: calc(460px + (660 - 400) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(636px + (660 - 400) * ((100vw - 320px) / (1920 - 320)));
     position: relative;
     display: flex;
     -webkit-box-align: center;
