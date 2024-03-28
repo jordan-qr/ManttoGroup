@@ -36,7 +36,7 @@ $(document).ready(function(){
 
 
   function abrirWhatsApp() {
-    window.open('https://api.whatsapp.com/send?phone=936922958', '_blank');
+    window.open('https://api.whatsapp.com/send?phone=999612760', '_blank');
   }
 
   document.addEventListener('DOMContentLoaded', function() {

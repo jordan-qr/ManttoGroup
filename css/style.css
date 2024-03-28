@@ -316,7 +316,6 @@ li{
     position: relative;
 }
 .header-sub-text-box::before{
-    content: '\e906';
   position: absolute;
   right: 0;
   top: 0;
