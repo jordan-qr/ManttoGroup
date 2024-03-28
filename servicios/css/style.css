@@ -35,13 +35,12 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
 }
 .title{
   width: 100%;
-  padding-bottom: 45px;
+  padding-bottom: 10px;
   color: #006699
 }
 .text{
   max-width: 900px;
   width: 100%;
-  margin: 0;
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 16px;
   color: #212020;
@@ -52,7 +51,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
 
 .divisiones-2{
   width: 100%;
-  padding: 50px 0px 61px;
+  padding: 0px 65px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -64,7 +63,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
 }
 
 .divisiones-2-title{
-  padding-bottom: 68px;
+  padding-bottom: 40px;
 }
 .divisiones-2-content{
   max-width: 1020px;
