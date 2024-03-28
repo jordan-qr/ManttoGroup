@@ -78,7 +78,7 @@ flex: 1; /* Permite que el contenido ocupe el espacio restante */
 .divisiones-2-item{
   width: 39%;
   position: relative;
-  padding-bottom: 49px;
+  padding-bottom: 20px;
   margin: 0;
   margin-right: 22%;
   display: block;
